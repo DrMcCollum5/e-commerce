@@ -7,7 +7,7 @@ class ProductTag extends Model {}
 ProductTag.init(
   {
     // define columns
-    id: {
+    productTag_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
